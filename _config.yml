@@ -10,7 +10,7 @@ twitter_username: "shutupmohsin"
 
 
 # Build settings
-permalink   : bugs/:slug
+permalink   : proj/:slug
 markdown    : kramdown
 highlighter : rouge
 
