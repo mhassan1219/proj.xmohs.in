@@ -1,5 +1,29 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
-@import "main";
+
+// Import variables first
+@import "../scss/variables";
+
+// Import bourbon
+@import "../scss/bourbon/bourbon";
+
+// Import base styles
+@import "../scss/base/base";
+@import "../scss/base/buttons";
+@import "../scss/base/forms";
+@import "../scss/base/lists";
+@import "../scss/base/reset";
+@import "../scss/base/tables";
+@import "../scss/base/typography";
+
+// Import other partials
+@import "../scss/layout";
+@import "../scss/syntax-highlighting";
+
+// Import main styles
+@import "../scss/main";
+
+// Add any additional custom styles below this line
